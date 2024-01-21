@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: ares_arm_simulation
+    relative_path: urdf/new_arm.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/rover_arm.srdf
+  CONFIG:
+    author_name: Eray Ocak
+    author_email: eray.ocak@ozu.edu.tr
+    generated_timestamp: 1705795961
