@@ -8,9 +8,3 @@ controller_list:
       - joint2
       - joint3
       - joint4
-  - name: end_effector_controller
-    action_ns: follow_joint_trajectory
-    type: FollowJointTrajectory
-    default: True
-    joints:
-      - joint5
